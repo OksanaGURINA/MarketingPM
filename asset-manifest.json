@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MarketingPM/static/css/main.49e004bc.css",
-    "main.js": "/MarketingPM/static/js/main.211f0434.js",
+    "main.js": "/MarketingPM/static/js/main.e6eda51d.js",
     "static/media/KS-promo-parents-video-vert.mp4": "/MarketingPM/static/media/KS-promo-parents-video-vert.f8a2c54af24c2eeea415.mp4",
     "static/media/KS-promo-parents-video.mp4": "/MarketingPM/static/media/KS-promo-parents-video.514bc89652718cfdc025.mp4",
     "static/media/KS-promo-shop-2.png": "/MarketingPM/static/media/KS-promo-shop-2.ba0e63ffbfa80a0209ca.png",
@@ -88,10 +88,10 @@
     "static/media/slick.woff": "/MarketingPM/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MarketingPM/index.html",
     "main.49e004bc.css.map": "/MarketingPM/static/css/main.49e004bc.css.map",
-    "main.211f0434.js.map": "/MarketingPM/static/js/main.211f0434.js.map"
+    "main.e6eda51d.js.map": "/MarketingPM/static/js/main.e6eda51d.js.map"
   },
   "entrypoints": [
     "static/css/main.49e004bc.css",
-    "static/js/main.211f0434.js"
+    "static/js/main.e6eda51d.js"
   ]
 }
