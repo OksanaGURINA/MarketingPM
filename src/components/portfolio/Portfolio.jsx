@@ -1,10 +1,9 @@
-import React from "react";
+import  { useState } from "react";
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-import { useMediaQuery } from "@mui/material";
 import experience from "../../assets/data/experience.json";
 import { Kyivstar } from "./Kyivstar";
 import { Vodafone } from "./Vodafone";
@@ -16,15 +15,11 @@ import "slick-carousel/slick/slick-theme.css";
 import "./portfolio.scss";
 
 export const Portfolio = () => {
-  const [value, setValue] = React.useState("1");
+  const [value, setValue] = useState("2");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-  // const mediumScreen = useMediaQuery("(max-width: 768px)");
-  // const smallScreen = useMediaQuery("(max-width: 768px)");
-
-  //(min-width: 721px) and (max-width: 840px)
 
   return (
     <section id="portfolio">
@@ -75,6 +70,7 @@ export const Portfolio = () => {
                 <Tab
                   label={item.name}
                   value={item.id.toString()}
+                  // value="2"
                   key={item.id}
                 />
               );
