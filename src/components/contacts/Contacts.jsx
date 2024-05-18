@@ -86,8 +86,8 @@ export const Contacts = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_21q68kd", "template_gpbvpmg", form.current, {
-        publicKey: "GFVxQsU2pcGUn1Uq4",
+      .sendForm("service_aor9nc9", "template_4us6sbp", form.current, {
+        publicKey: "nrS3hGCoz0gbMs7eg",
       })
       .then(
         () => {
