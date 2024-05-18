@@ -200,8 +200,8 @@ export const Contacts = () => {
           </Box>
         </div>
         <ModalWindow open={open} setOpen={setOpen}>
-          <div style={{ marginTop: "1.5rem" }}>
-            That's Great!
+          <div style={{ marginTop: "1.5rem", color: "white" }}>
+            <span style={{fontWeight: "bold"}}>That's Great!</span>
             <br /> Your Message has been sent to Oksana GURINA
           </div>
           <div className="closeBtn" onClick={() => setOpen(false)}>Close</div>
