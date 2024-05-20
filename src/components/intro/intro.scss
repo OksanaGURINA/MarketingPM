@@ -9,6 +9,7 @@
     overflow: hidden;
     //==========
     display: flex;
+    padding: 0 2rem;
 
     .introContent {
         // height: 100vh;
@@ -23,9 +24,9 @@
         grid-gap: 2rem;
     }
 
-    .portrait-wrap {
-        padding-left: 2rem;
-    }
+    // .portrait-wrap {
+    //     padding-left: 2rem;
+    // }
 
     .bg {
         // position: absolute;
@@ -95,7 +96,7 @@
         }
 
         .portrait-wrap {
-            // padding-left: 2rem;
+            // padding-left: 0;
             display: flex;
             justify-content: center;
         }
@@ -108,8 +109,9 @@
         .introInfo {
             width: 90%;
             padding-right: 0;
-            grid-gap: .5rem;
-            // align-items: center;
+            grid-gap: 20px;
+            align-items: center;
+            text-align: center;
 
             .introName {
                 font-size: 2rem;
@@ -118,6 +120,15 @@
             .introPara {
                 font-size: 1rem;
                 font-weight: 200;
+            }
+
+            .btn-wrap {
+                grid-gap: 1.2rem;
+
+                .download-btn {
+                    font-size: .8rem;
+                }
+
             }
         }
 
@@ -130,7 +141,7 @@
         }
 
         .introInfo {
-            grid-gap: .5rem;
+            grid-gap: .7px;
 
             .introName {
                 font-size: 2rem;

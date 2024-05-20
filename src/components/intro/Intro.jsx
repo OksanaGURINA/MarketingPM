@@ -17,7 +17,7 @@ export const Intro = () => {
           </span>
           <p className="introPara">
             With over 15 years experience in marketing and proficiency in 3
-            languages (English, French, Ukrainian). <br />I am looking for a
+            languages (English, French, Ukrainian). <br/> I am looking for a
             Marketing Project Manager position for international brands
           </p>
           <div className="btn-wrap">
